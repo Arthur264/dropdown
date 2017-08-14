@@ -1,0 +1,104 @@
+/* line 1, ../sass/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+/* line 7, ../sass/style.scss */
+body {
+  background-color: #f5f6f7;
+  padding: 20px;
+  font-size: 17px;
+  font-family: 'LatoRegular', 'Helvetica', sans-serif;
+}
+
+/* line 14, ../sass/style.scss */
+.dropdown {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+}
+/* line 19, ../sass/style.scss */
+.dropdown__header, .dropdown__body {
+  color: #151313;
+  position: relative;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+/* line 24, ../sass/style.scss */
+.dropdown__header:hover, .dropdown__body:hover {
+  cursor: pointer;
+}
+/* line 27, ../sass/style.scss */
+.dropdown__header .arrow, .dropdown__body .arrow {
+  right: 15px;
+  top: 17px;
+  transition: 0.4s;
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px dashed #999999;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+/* line 40, ../sass/style.scss */
+.dropdown__body {
+  border: 0;
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: hidden;
+  transition: height 500ms;
+  height: 0;
+}
+/* line 49, ../sass/style.scss */
+.dropdown__body:hover {
+  cursor: none;
+}
+/* line 53, ../sass/style.scss */
+.dropdown__item {
+  padding: 10px;
+}
+/* line 55, ../sass/style.scss */
+.dropdown__item:hover {
+  cursor: pointer;
+  background-color: #d0dae4;
+}
+/* line 60, ../sass/style.scss */
+.dropdown__input {
+  padding: 10px;
+}
+
+/* line 65, ../sass/style.scss */
+#dropdownSearch {
+  width: 100%;
+  height: 30px;
+  padding: 0 5px;
+}
+
+/* line 72, ../sass/style.scss */
+.active {
+  background-color: #d0dae4;
+}
+
+/* line 76, ../sass/style.scss */
+.turnUp {
+  transform: rotate(-90deg);
+}
+
+/* line 80, ../sass/style.scss */
+.turnDown {
+  transform: rotate(90deg);
+}
+
+/* line 83, ../sass/style.scss */
+.dispNone {
+  display: none;
+}
+
+/* line 86, ../sass/style.scss */
+.text-center {
+  text-align: center;
+}
